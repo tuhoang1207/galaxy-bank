@@ -181,7 +181,7 @@ export const createBankAccount = async ({
 
         return parseStringify(bankAccount);
     } catch (error) {
-        
+      console.log(error);
     }
 }
 
@@ -220,7 +220,7 @@ export const exchangePublicToken = async ({
         //If the funding source URL is not created, throw an error
         if (!fundingSourceUrl) throw Error;
 
-        //Create aa bank account using the user ID, item ID, account iD, access token, funding source URL, and sharable ID
+        //Create aa bank account using the user ID, item ID, account iD, access token, funding source URL, and shareableId ID
         await createBankAccount({
             userId: user.$id,
             bankId: itemId,
