@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Galaxy",
   description: "Dễ dàng quản lý tài chính của bạn",
   icons: {
-    icon: '/icon/logo.svg'
+    icon: '/icon/logo-lotus1.png'
   }
 };
 

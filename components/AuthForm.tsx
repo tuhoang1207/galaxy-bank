@@ -86,8 +86,8 @@ const AuthForm = ({ type }: { type: string}) => {
     <section className="auth-form">
         <header className="flex flex-col gap-5 md:gap-8">
             <Link href="/" className="cursor-pointer flex items-center gap-1">
-                <Image src="/icons/logo.svg" width={34} height={34} alt="Galaxy logo"/>
-                <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">Galaxy</h1>
+                <Image src="/icons/logo-lotus1.png" width={34} height={34} alt="Galaxy logo"/>
+                <h1 className="text-26 font-ibm-plex-serif font-bold text-blue-500">Galaxy</h1>
             </Link>
 
             <div className="flex flex-col gap-1 md:gap-3">
@@ -154,7 +154,7 @@ const AuthForm = ({ type }: { type: string}) => {
                                         control={form.control}
                                         name='postalCode'
                                         label="Postal Code"
-                                        placeholder='Example: 11101'
+                                        placeholder='Example: 12345'
                                     />
                                 </div>
                                 <div className="flex gap-4">
@@ -168,7 +168,7 @@ const AuthForm = ({ type }: { type: string}) => {
                                         control={form.control}
                                         name='ssn'
                                         label="Ssn"
-                                        placeholder='Enter your ssn'
+                                        placeholder='Example: 1234'
                                     />
                                 </div>
                             </>
